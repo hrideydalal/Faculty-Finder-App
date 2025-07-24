@@ -1,37 +1,3 @@
-### 🛠️ 1. Initialize `package.json`
-
-From inside the `server/` folder, run:
-
-```bash
-npm init -y
-```
-
-This will generate a basic `package.json` file.
-
----
-
-### ✅ 2. Install Required Dependencies
-
-Still inside `server/`, run:
-
-```bash
-npm install express mysql cors body-parser
-```
-
-These packages are used in `server.js`:
-
-* `express`: For API routes
-* `mysql`: To connect with your MySQL DB
-* `cors`: To allow frontend access
-* `body-parser`: To handle POST requests (included in Express, but we used it for clarity)
-
----
-
-### ✅ 3. Final `server/package.json` (Auto-generated + script)
-
-If you want, you can edit `package.json` to add a `start` script:
-
-```json
 {
   "name": "faculty-finder-backend",
   "version": "1.0.0",
@@ -52,19 +18,40 @@ If you want, you can edit `package.json` to add a `start` script:
 }
 ```
 
----
+### Instructions to Use:
 
-### ✅ 4. Run the Server
+#### 1. Go to your backend folder:
 
-From the `server/` folder, start your backend:
+```bash
+cd faculty-finder-app/server
+```
+
+#### 2. Create this file:
+
+You can create it manually or overwrite any existing `package.json` with the above content.
+
+#### 3. Install dependencies:
+
+```bash
+npm install
+```
+
+This will install:
+
+* Express (backend framework)
+* MySQL (for DB connection)
+* Cors (to allow frontend requests)
+* Body-parser (to read POST data)
+
+#### 4. Run the backend:
 
 ```bash
 npm start
 ```
 
-If everything is working, you’ll see:
+You should see this if it’s working:
 
-```bash
+```
 Connected to MySQL
 Server running on http://localhost:5000
 ```
