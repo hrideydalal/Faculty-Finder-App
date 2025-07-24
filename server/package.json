@@ -1,3 +1,4 @@
+```json
 {
   "name": "faculty-finder-backend",
   "version": "1.0.0",
@@ -15,43 +16,11 @@
     "mysql": "^2.18.1"
   }
 }
-
 ```
 
-### Instructions to Use:
-
-#### 1. Go to your backend folder:
-
-```bash
-cd faculty-finder-app/server
-```
-
-#### 2. Create this file:
-
-You can create it manually or overwrite any existing `package.json` with the above content.
-
-#### 3. Install dependencies:
+Then run:
 
 ```bash
 npm install
-```
-
-This will install:
-
-* Express (backend framework)
-* MySQL (for DB connection)
-* Cors (to allow frontend requests)
-* Body-parser (to read POST data)
-
-#### 4. Run the backend:
-
-```bash
 npm start
-```
-
-You should see this if it’s working:
-
-```
-Connected to MySQL
-Server running on http://localhost:5000
 ```
