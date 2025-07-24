@@ -1,17 +1,9 @@
 import React from "react";
+import "./FacultyCard.css";
 
 function FacultyCard({ faculty }) {
   return (
-    <div
-      style={{
-        border: "1px solid #ccc",
-        borderRadius: "6px",
-        padding: "16px",
-        marginBottom: "16px",
-        maxWidth: "500px",
-        boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-      }}
-    >
+    <div className="faculty-card">
       <h3>{faculty.name}</h3>
       <p><strong>Department:</strong> {faculty.department}</p>
       <p><strong>Email:</strong> {faculty.email}</p>
