@@ -141,12 +141,6 @@ Runs at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🖼️ Screenshots
-
-> You can add screenshots of your UI here (Login, Register, Search, Profile views)
-
----
-
 ## 📌 To-Do / Future Improvements
 
 - Add logout/session using JWT or localStorage
