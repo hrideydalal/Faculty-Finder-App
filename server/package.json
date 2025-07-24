@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
   "author": "Hridey Dalal",
   "license": "MIT",
   "dependencies": {
@@ -16,6 +15,7 @@
     "mysql": "^2.18.1"
   }
 }
+
 ```
 
 ### Instructions to Use:
